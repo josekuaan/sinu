@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+ 
+  background: transparent url('./images/Hero.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  padding-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.main-nav {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: absolute;
+  right: 57px;
+}
+.main-nav li{
+  color: #fff;
+}
+.hero-text-box{
+  width: 100%;
+  padding: 6rem 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  
+  /* left: 50%; */
+  /* -webkit-transform: translate( -50%, -50%);
+          transform: translate( -50%, -50%);  */ 
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.sinu-image{
+  -webkit-transform: translate( 96%, -88%);
+  transform: translate( 96%, -88%);  
+  position: absolute;
+  margin-top: 6rem;
+}
+.sinu-image img{
+  width: 67%;
+}
+.hero-text-box center h1{
+  font-size:4.5rem;
+  letter-spacing: 2;
+}
+.hero-text-box center {
+  padding-bottom: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sinu-title{
+  width: 43%;
+}
+
+.sinu-brief{
+  color: #fff;
+}
+
+
+.btn:link,
+.btn:visited{
+  display: inline-block;
+  padding: 5px 30px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: rgb(177, 235, 233);
+  -webkit-transition:background-color 0.3s, border 0.2s, color 0.2s;
+  transition:background-color 0.3s, border 0.2s, color 0.2s;
+}
+
+.btn-join-metaverse{
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+/* section{
+  margin-top: 3rem;
+} */
+.section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-two-container{
+  width: 50%;
+  margin-top: 6rem;
+  color: #fff;
+}
+.section-two-img{
+  width: 38%;
+}
+
+.section-three-content{
+  background: #000 url('./images/bgsection.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pvp{
+  position: relative;
+    top: 240px;
+}
+.section-three-container{
+  width: 43%;
+  background-color: rgba(255, 255, 255, 0.308);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 4px;
+  position: absolute;
+}
+.section-three{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-three-img{
+  width: 40%;
+}
+
+.sinu{
+  background-color: black;
+  padding-top: 14rem;
+}
+.sinu center{
+  
+  padding: 3rem;
+}
+.sinu-team{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 59px;
+}
+.sinu-team-img{
+   width: 33%;
+}
+.sinu-team-img img{
+  width: 87%;
 }
