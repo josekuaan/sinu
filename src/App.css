@@ -24,15 +24,24 @@ nav{
   display: flex;
   justify-content: space-between;
 }
+.navbar-menu {
+  width: 40%;
+  position: relative;
+}
+.navbar-menu img {
+  width: 100%;
+}
 .main-nav {
-  width: 37%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   color: #fff;
   position: absolute;
-  right: 57px;
+  top: 0;
+  right: 40px;
+  padding: 10px;
 }
-.main-nav li{
+.main-nav li a{
   color: #fff;
 }
 .hero-text-box{
@@ -50,20 +59,23 @@ nav{
 
 
 .sinu-image{
-  -webkit-transform: translate( 96%, -88%);
-  transform: translate( 96%, -88%);  
+  /* -webkit-transform: translate( 96%, -88%); */
+  /* transform: translate( 96%, -88%);   */
   position: absolute;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
+  width: 30%;
+  top: 15%;
+  right: 0;
 }
 .sinu-image img{
-  width: 67%;
+  width: 100%;
 }
 .hero-text-box center h1{
   font-size:4.5rem;
   letter-spacing: 2;
 }
 .hero-text-box center {
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 
 .sinu-title{
@@ -72,6 +84,8 @@ nav{
 
 .sinu-brief{
   color: #fff;
+  padding-top: 10px;
+  display: block;
 }
 
 
@@ -83,7 +97,7 @@ nav{
   text-decoration: none;
   border-radius: 10px;
   background-color: #fff;
-  color: rgb(177, 235, 233);
+  color: rgb(7 191 184);
   -webkit-transition:background-color 0.3s, border 0.2s, color 0.2s;
   transition:background-color 0.3s, border 0.2s, color 0.2s;
 }
@@ -100,11 +114,17 @@ nav{
   display: flex;
   justify-content: space-evenly;
 }
-
+.section-two {
+  align-items: center;
+  flex-wrap: wrap;
+}
 .section-two-container{
   width: 50%;
-  margin-top: 6rem;
+  
   color: #fff;
+}
+.section-two-container p {
+  padding-top: 10px;
 }
 .section-two-img{
   width: 38%;
@@ -158,4 +178,65 @@ nav{
 }
 .sinu-team-img img{
   width: 87%;
+}
+
+/***Beginning of media query***/
+
+@media only screen and (max-width:1000px) {
+  .navbar-menu {
+    width: 56%;
+  }
+  
+}
+@media only screen and (max-width:800px) {
+  .navbar-menu {
+    width: 75%;
+  }
+  .sinu-title {
+    width: 80%;
+  }
+  .sinu-image {
+    top: 51%;
+    z-index: -1;
+  }
+  .hero-text-box {
+    z-index: 100;
+  }
+  .section-two-img {
+    width: 60%;
+  }
+  .section-two-container {
+    width: 80%;
+  }
+ 
+}
+@media only screen and (max-width:600px) {
+  .navbar-menu {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:512px) {
+  .main-nav {
+    width: 81%;
+    padding: 6px;
+  }
+  .sinu-image {
+    width: 43%;
+  }
+  .btn:link, .btn:visited {
+    padding: 5px 8px;
+  }
+}
+@media only screen and (max-width:425px) {
+  .main-nav {
+    width: 86%;
+    left: 19px;
+    padding: 0;
+  }
+  .sinu-image {
+    width: 52%;
+  }
+}
+@media only screen and (max-width:360px) {
+
 }
