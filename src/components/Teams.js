@@ -10,9 +10,9 @@ import meetTeam from '../images/meet-the-team.png'
 import SINUVERSE1 from '../images/sinuverse_1.mp4'
 
 export default function Teams() {
-  return <div className='sinu'>
-      <center><img src={meetTeam} alt='' width={300}/></center>
-        <section className='sinu-team'>
+  return <div className='sinu' >
+      <center id='teams'><img src={meetTeam} alt='' width={300}/></center>
+        <section className='sinu-team' >
            <div className='sinu-team-img'>
                <img src={sinuAlpha} alt='sinu-alpha'/>
            </div>

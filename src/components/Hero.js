@@ -15,20 +15,20 @@ export default function Hero() {
       <>
       
       <header>
-       <nav>
+       <nav id="first-view">
             <div className=" navbar">
                
                 <div>
                    <a href="index.html"><img src={logo} className="logo-black" alt="logo"  width={150}/></a>
                 </div>
                 <div>
-                <img src={navbar} width={550}/>
+                <img src={navbar} width={550} alt="nav-bar"/>
                 </div>
                 <ul className="main-nav js--main-nav ">
-                    <li><a href="#delivery">Home</a></li>
-                    <li><a href="#works"> Roadmap</a></li>
-                    <li><a href="#cities">Team </a></li>
-                    <li><a href="#plans">Whitepaper </a></li>
+                    <li><a href="#first-view">Home</a></li>
+                    <li><a href="#road-map"> Roadmap</a></li>
+                    <li><a href="#teams">Team </a></li>
+                    <li><a href="#sinu">Whitepaper </a></li>
                 </ul>
                 
                
@@ -54,7 +54,7 @@ export default function Hero() {
             
          </div>
         <section>
-            <div className=' section section-two'>
+            <div className=' section section-two' id="road-map">
                 <div className='section-two-img'>
                     <img src={sinuLord} alt='' style={{width:'100%'}}/>
                 </div>
@@ -71,7 +71,7 @@ export default function Hero() {
 
         
     </header>
-    <section className='section-three-content'>
+    <section className='section-three-content' >
             
             <div className='pvp'>
                     <center><img src={gameMode} alt=''width={300} /></center>
