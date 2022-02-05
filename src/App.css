@@ -131,7 +131,9 @@ nav{
 }
 
 .section-three-content{
-  background: #000 url('./images/bgsection.png') 0% 0% no-repeat padding-box;
+  /* background: #000 url('./images/bgsection.png') 0% 0% no-repeat padding-box; */
+  background: linear-gradient(to bottom, rgb(3, 3, 3,0.5),  rgba(3, 13, 19, 0.73)),
+  url('./images/bgsection.png');;
   opacity: 1;
   /* height: 100vh; */
   background-repeat: no-repeat;
@@ -144,14 +146,19 @@ nav{
     top: 240px;
 }
 .section-three-container{
-  width: 43%;
-  background-color: rgba(255, 255, 255, 0.308);
-  padding: 1rem;
+  width: 50%;
+ 
   color: #fff;
   border-radius: 4px;
   position: absolute;
+  bottom:240px;
 }
-
+.section-three-container p {
+  background-color: rgba(255, 255, 255, 0.308);
+  padding: 45px 30px 67px;
+  margin: 0;
+  margin-top: 60px;
+}
 .section-three-sinuverse-text{
   width: 50%;
   background-color: rgba(255, 255, 255, 0.308);
@@ -161,8 +168,9 @@ nav{
   /* position: absolute; */
 }
 .section-sinuverse{
-  margin: 0 57px;
-  padding: 4rem 0;
+  
+  padding: 4rem 57px;
+  flex-wrap: wrap;
 }
 
 
@@ -183,7 +191,7 @@ nav{
 
 .sinu{
   background-color: black;
-  padding-top: 14rem;
+  padding-top:3em;
 }
 .sinu center{
   
@@ -193,12 +201,13 @@ nav{
   display: flex;
   flex-wrap: wrap;
   margin: 0 59px;
+  justify-content: space-around;
 }
 .sinu-team-img{
-   width: 33%;
+   width: 30%;
 }
 .sinu-team-img img{
-  width: 87%;
+  width: 100%;
 }
 
 /***Beginning of media query***/
@@ -207,7 +216,20 @@ nav{
   .navbar-menu {
     width: 56%;
   }
-  
+  .pvp {
+    top: 0;
+  }
+  .section-three {
+    align-items: center;
+  }
+  .section-three-container {
+    position: relative;
+    bottom: 0;
+    width: auto;
+  }
+  .section-two {
+    padding-bottom: 40px;
+  }
 }
 @media only screen and (max-width:800px) {
   .navbar-menu {
@@ -229,11 +251,27 @@ nav{
   .section-two-container {
     width: 80%;
   }
- 
+  .section-three {
+    flex-direction: column;
+  }
+  .sinu-team-img{
+    width: 40%;
+ }
+ .section-three-sinuverse-text {
+   width: 80%;
+ }
 }
 @media only screen and (max-width:600px) {
   .navbar-menu {
     width: 100%;
+  }
+  .sinu center {
+    padding: 3rem 0px 3rem;
+  }
+  .section-sinuverse{
+  
+    padding: 4rem 0;
+   
   }
 }
 @media only screen and (max-width:512px) {
@@ -246,6 +284,20 @@ nav{
   }
   .btn:link, .btn:visited {
     padding: 5px 8px;
+  }
+  .section-two-container img {
+    width: 76%;
+  }
+  .section-two {
+    padding-bottom: 25px;
+  }
+  .sinu-team-img {
+    width: 80%;
+    margin-bottom: 20px
+;
+  }
+  .section-three-sinuverse-text {
+    width: 100%;
   }
 }
 @media only screen and (max-width:425px) {

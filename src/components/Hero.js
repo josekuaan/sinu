@@ -76,13 +76,13 @@ export default function Hero() {
     <section className='section-three-content'>
             
             <div className='pvp'>
-                    <center><img src={gameMode} alt=''width={300} /></center>
                     <div className=' section section-three'>
                         <div className='section-three-img'>
                             <img src={fighter2} alt=''style={{width:'100%'}} />
                         </div>
                         
                         <div className='section-three-container'>
+                    <center><img src={gameMode} alt=''width={300} /></center>
                             
                             <p > 
                                 PvP(Player vs Player) Mode The most advanced mode of our Play-2-Earn game is to allow players compete together in this player vs player mode and the goal is to increase community interaction through gaming.<br /><br /> PvC(Player Vs Computer) This can have massive effect on the clans leaderboard as playing against the computer might prove to be a more challenging opponent compared to the PvP mode. For fairness, we encourage that players engage in the PvP mode.
