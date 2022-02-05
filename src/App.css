@@ -131,13 +131,34 @@ nav{
   border-radius: 4px;
   position: absolute;
 }
+
+.section-three-sinuverse-text{
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.308);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 4px;
+  /* position: absolute; */
+}
+.section-sinuverse{
+  margin: 0 57px;
+  padding: 4rem 0;
+}
+
+
+
 .section-three{
+  padding: 3rem 0;
   display: flex;
   justify-content: space-evenly;
 }
 
-.section-three-img{
+.section-three-vedio{
   width: 40%;
+}
+
+.section-three-vedio video{
+  width: 100%;
 }
 
 .sinu{
