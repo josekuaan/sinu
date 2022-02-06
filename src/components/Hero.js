@@ -8,7 +8,7 @@ import fighter1 from '../images/Fighter 1.png'
 import fighter2 from '../images/Fighter 2.png'
 import gameMode from '../images/game-mode.png'
 import navbar from '../images/navbar.png'
-import Teams from './Teams';
+
 
 export default function Hero() {
   return ( 
@@ -29,11 +29,9 @@ export default function Hero() {
                     <li><a href="#teams">Team </a></li>
                     <li><a href="#sinu">Whitepaper </a></li>
                 </ul>
-                </div>
-               
-                
-               
             </div>
+               
+          </div>
 
         </nav>
         <div className="hero-text-box">
