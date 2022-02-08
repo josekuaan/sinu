@@ -25,9 +25,10 @@ export default function Hero() {
                 <img src={navbar}/>
                 <ul className="main-nav js--main-nav ">
                     <li><a href="#first-view">Home</a></li>
-                    <li><a href="#road-map"> Roadmap</a></li>
+                    <li><a href="#sinu-verse"> SINUVerse</a></li>
+                    <li><a href="#game-modes"> GameModes</a></li>
                     <li><a href="#teams">Team </a></li>
-                    <li><a href="#sinu">Whitepaper </a></li>
+                    {/* <li><a href="#sinu">Whitepaper </a></li> */}
                 </ul>
             </div>
                
@@ -54,7 +55,7 @@ export default function Hero() {
             
          </div>
         <section>
-            <div className=' section section-two' id="road-map">
+            <div className=' section section-two' id="sinu-verse">
                 <div className='section-two-img'>
                     <img src={sinuLord} alt='' style={{width:'100%'}}/>
                 </div>
@@ -71,7 +72,7 @@ export default function Hero() {
 
         
     </header>
-    <section className='section-three-content' >
+    <section className='section-three-content' id="game-modes">
             
             <div className='pvp'>
                     <div className=' section section-three'>
@@ -84,7 +85,10 @@ export default function Hero() {
                             
                             <p > 
                                 PvP(Player vs Player) Mode The most advanced mode of our Play-2-Earn game is to allow players compete together in this player vs player mode and the goal is to increase community interaction through gaming.<br /><br /> PvC(Player Vs Computer) This can have massive effect on the clans leaderboard as playing against the computer might prove to be a more challenging opponent compared to the PvP mode. For fairness, we encourage that players engage in the PvP mode.
+            <a href='#' className=" btn btn-read-paper" style={{marginTop:"20px" ,display:"block", width:"250px"}}>Go to Whitepaper </a>
+                            
                             </p>
+
                             
                         </div>
                         
