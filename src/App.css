@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'poppins';
+}
 a{
   text-decoration: none;
   
@@ -6,7 +8,9 @@ a{
 ul li{
   list-style: none;
 }
-
+h2 {
+  color: #FDB202;
+}
 header{
  
   background: transparent url('./images/Hero.png') 0% 0% no-repeat padding-box;
@@ -29,6 +33,9 @@ nav{
 .navbar-menu {
   width: 40%;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .navbar-menu img {
   width: 100%;
@@ -99,7 +106,8 @@ nav{
   text-decoration: none;
   border-radius: 10px;
   background-color: #fff;
-  color: rgb(7 191 184);
+  /* color: rgb(7 191 184); */
+  color: #FDB202;
   -webkit-transition:background-color 0.3s, border 0.2s, color 0.2s;
   transition:background-color 0.3s, border 0.2s, color 0.2s;
 }
@@ -120,6 +128,7 @@ nav{
   align-items: center;
   flex-wrap: wrap;
 }
+
 .section-two-container{
   width: 50%;
   color: #f5f5f5a8;
@@ -177,6 +186,13 @@ nav{
 
 .team-detail{
   color: #f5f5f5a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 160px;
+}
+.team-detail span {
+  color: gainsboro;
 }
 .section-three{
   padding: 3rem 0;
@@ -185,9 +201,14 @@ nav{
 }
 
 .section-three-vedio{
-  width: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+iframe {
+  width: 70%;
+}
 .section-three-vedio video{
   width: 100%;
 }
@@ -210,25 +231,27 @@ nav{
 .sinu-team{
   display: flex;
   flex-wrap: wrap;
-  margin: 0 59px;
+  padding: 0px 30px;
   justify-content: space-around;
 }
 .sinu-team-img{
    width: 30%;
+   margin-bottom: 30px;
 }
 .sinu-team-img img{
   width: 100%;
 }
 
 footer{
-  background-color: #000;
-  padding: 4rem 6rem 2rem;
+  background-color: #0A3240;
+  padding: 2rem 6rem 2rem;
   display:flex;
   justify-content: space-between;
 }
 footer ul{
   display: flex;
   justify-content: end;
+  margin: 0;
 
 }
 iframe:focus {
@@ -239,8 +262,9 @@ iframe:focus {
   display: block;
 } */
 footer ul li{
- width: 10%;
+ width: 50px;
  margin-right: 1rem;
+
 }
 
 
@@ -307,6 +331,16 @@ footer ul li{
     padding: 4rem 0;
    
   }
+  .team-detail {
+    margin-bottom: 30px;
+    
+  }
+  .team-detail span {
+    margin-top: 20px;
+  }
+  footer {
+    padding: 4rem 2rem 2rem;
+  }
 }
 @media only screen and (max-width:512px) {
   .main-nav {
@@ -342,6 +376,15 @@ footer ul li{
   }
   .sinu-image {
     width: 52%;
+  }
+  footer ul li {
+    width: 30px;
+  }
+  .footerlogo {
+    width: 100px;
+  }
+  .main-nav li a {
+    font-size: 13px;
   }
 }
 @media only screen and (max-width:360px) {
