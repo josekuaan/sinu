@@ -23,15 +23,16 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>DeFiBeast</h2>
+              <span>
+              <i>(Lazy Dev)</i>
+            </span>
               <p>
                 {" "}
                 keen about change, adapt, learn and build it while keeping
                 things simple. An introvert without remorse
               </p>
             </div>
-            <span>
-              <i>(Lazy Dev)</i>
-            </span>
+            
           </div>
         </div>
         <div className="sinu-team-img" style={{ textAlign: "center" }}>
@@ -39,14 +40,15 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>Kuaan</h2>
+              <span>
+              <i>(Dart Dev Guy)</i>
+            </span>
               <p>
                 Blockchain enthusiasts, in love with web3, always trying new
                 things, cool me!
               </p>
             </div>
-            <span>
-              <i>(Dart Dev Guy)</i>
-            </span>
+            
           </div>
         </div>
         <div className="sinu-team-img" style={{ textAlign: "center" }}>
@@ -54,11 +56,12 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>RadicalMortal</h2>
-              <p> Finds expression in designs and illustrations</p>
-            </div>
-            <span>
+              <span>
               <i>(Design Nerd)</i>
             </span>
+              <p> Finds expression in designs and illustrations</p>
+            </div>
+            
           </div>
         </div>
         <div className="sinu-team-img" style={{ textAlign: "center" }}>
@@ -67,15 +70,16 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>Klipit</h2>
+              <span>
+              <i>(MetaStrategist)</i>
+            </span>
               <div>
                 {" "}
                 Receptive and rigid in character. Create a metabridge and serve
                 as the point of contact between the team and the community.{" "}
               </div>
             </div>
-            <span>
-              <i>(MetaStrategist)</i>
-            </span>
+           
           </div>
         </div>
         <div className="sinu-team-img" style={{ textAlign: "center" }}>
@@ -83,15 +87,16 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>Lya</h2>
+              <span>
+              <i>(MOD/BOT HUNTER)</i>
+            </span>
               <p>
                 {" "}
                 Keeper of peace and orderliness. Making sure the non-living does
                 not overthrow the living in the SinuVerse!
               </p>
             </div>
-            <span>
-              <i>(MOD/BOT HUNTER)</i>
-            </span>
+            
           </div>
         </div>
         <div className="sinu-team-img" style={{ textAlign: "center" }}>
@@ -99,14 +104,15 @@ export default function Teams() {
           <div className="team-detail">
             <div className="team-detail-hero">
               <h2>De Maestro</h2>
+              <span>
+              <i>(De Maestro)</i>
+            </span>
               <div>
                 Desire to see, feel and grow the implementation of design to
                 thrive in all aspects
               </div>
             </div>
-            <span>
-              <i>(De Maestro)</i>
-            </span>
+            
           </div>
         </div>
       </section>
