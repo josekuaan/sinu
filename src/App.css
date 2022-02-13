@@ -519,6 +519,9 @@ ul {
   .galaContainer {
     justify-content: space-between;
   }
+  .road-map-title {
+    padding-bottom: 30px;
+  }
 }
 @media only screen and (max-width:600px) {
   .navbar-menu {
