@@ -282,6 +282,32 @@ footer ul li{
   background-position: center;
 }
 
+.card{
+  text-align: left;
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff;
+   
+}
+.card .one{
+  color: #44C4FF;
+}
+.card .two{
+  color: #33CC33;
+}
+.card .three{
+  color: #5044FF;
+}
+.card .four{
+  color: #FE439F;
+}
+
+
+
+.card-image{
+  margin: 0 auto;
+  width: 54%;
+}
 .road-map-img img{
   width: 100%;
 }

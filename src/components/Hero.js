@@ -65,7 +65,7 @@ export default function Hero() {
                             
                             <p > 
                                 PvP(Player vs Player) Mode The most advanced mode of our Play-2-Earn game is to allow players compete together in this player vs player mode and the goal is to increase community interaction through gaming.<br /><br /> PvC(Player Vs Computer) This can have massive effect on the clans leaderboard as playing against the computer might prove to be a more challenging opponent compared to the PvP mode. For fairness, we encourage that players engage in the PvP mode.
-            <a href='#' className=" btn btn-read-paper" style={{marginTop:"20px" ,display:"block", width:"250px"}}>Go to Whitepaper </a>
+                              <a href='#' className=" btn btn-read-paper" style={{marginTop:"20px" ,display:"block", width:"250px"}}>Go to Whitepaper </a>
                             
                             </p>
 
