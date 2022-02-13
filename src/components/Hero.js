@@ -1,20 +1,19 @@
-import React from "react"
+import React from "react";
 import sinugold from "../images/sinugold.png";
 import sinuLord from "../images/sinu-lord.png";
 import sinuVerse from "../images/sinu-verse.png";
 import fighter1 from "../images/Fighter 1.png";
 import fighter2 from "../images/Fighter 2.png";
 import gameMode from "../images/game-mode.png";
-import NavBar from './NavBar';
-
-
+import NavBar from "./NavBar";
+import BouncyDiv from "./StyledDiv";
+import Snowfall from "react-snowfall";
 import Header from "./Header";
 
 export default function Hero() {
   return (
     <>
       <header>
-
         <NavBar />
 
         <div className="hero-text-box">
@@ -40,9 +39,9 @@ export default function Hero() {
         </div>
         <section>
           <div className=" section section-two" id="sinu-verse">
-            <div className="section-two-img">
+            <BouncyDiv className="section-two-img">
               <img src={sinuLord} alt="" style={{ width: "100%" }} />
-            </div>
+            </BouncyDiv>
             <div className="section-two-container">
               <h1>Welcome To </h1>
               <img src={sinuVerse} alt="" />
@@ -61,7 +60,20 @@ export default function Hero() {
           </div>
         </section>
       </header>
-      <section className="section-three-content" id="game-modes">
+      <section className="section-three-content" id="game-modes" style={{position:"relative"}}>
+        <Snowfall
+          // Changes the snowflake color
+          color="white"
+          // Applied to the canvas element
+          
+          style={{
+            position: 'absolute',
+            width: '100vw',
+            // height: '100vh'
+          }}
+          // Controls the number of snowflakes that are created (default 150)
+          snowflakeCount={200}
+        />
         <div className="pvp">
           <div className=" section section-three">
             <div className="section-three-img">
@@ -93,7 +105,7 @@ export default function Hero() {
                     width: "250px",
                   }}
                 >
-                   Whitepaper Soon{" "}
+                  Whitepaper Soon{" "}
                 </a>
               </p>
             </div>
