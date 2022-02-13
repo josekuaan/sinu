@@ -28,8 +28,8 @@ export default function Hero() {
               </span>
             </div>
             <div>
-              <a href="#" className=" btn btn-join-metaverse">
-                Join The Metaverse
+              <a href="/tokenomics#$SINU" className=" btn btn-join-metaverse">
+                Buy $SINU Now
               </a>
             </div>
 
@@ -93,7 +93,7 @@ export default function Hero() {
                     width: "250px",
                   }}
                 >
-                  Go to Whitepaper{" "}
+                   Whitepaper Soon{" "}
                 </a>
               </p>
             </div>

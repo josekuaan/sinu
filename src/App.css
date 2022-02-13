@@ -314,10 +314,7 @@ footer ul li{
   background-position: center;
 }
 
-.token {
-  padding-bottom: 40px;
 
-}
 .token h5 {
   font-size: 17px;
 }
@@ -440,6 +437,18 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.sinu_info {
+  color: white;
+  padding: 50px 50px 0px 50px;
+}
+.sinu_info p{
+  color: white;
+  overflow-wrap: break-word;
+
+}
+.sinu_info a{
+  overflow-wrap: break-word;
 }
 
 /***Beginning of media query***/
