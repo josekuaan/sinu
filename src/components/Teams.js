@@ -12,6 +12,7 @@ import Footer from "./Footer";
 
 export default function Teams() {
   return (
+      <div>
     <div className="sinu">
       <center id="teams">
         <img src={meetTeam} alt="" width={300} />
@@ -132,5 +133,6 @@ export default function Teams() {
       </div>
       <Footer/>
     </div>
+    
   );
 }
