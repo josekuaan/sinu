@@ -1,13 +1,12 @@
 import React from 'react';
 
 import sinugold from '../images/sinugold.png'
-import logo from '../images/logo.png'
 import sinuLord from '../images/sinu-lord.png'
 import sinuVerse from '../images/sinu-verse.png'
 import fighter1 from '../images/Fighter 1.png'
 import fighter2 from '../images/Fighter 2.png'
 import gameMode from '../images/game-mode.png'
-import navbar from '../images/navbar.png'
+import NavBar from './NavBar';
 
 
 export default function Hero() {
@@ -15,26 +14,7 @@ export default function Hero() {
       <>
       
       <header>
-       <nav id="first-view">
-            <div className=" navbar">
-               
-                <div>
-                   <a href="index.html"><img src={logo} className="logo-black" alt="logo"  width={150}/></a>
-                </div>
-                <div className='navbar-menu'>
-                <img src={navbar}/>
-                <ul className="main-nav js--main-nav ">
-                    <li><a href="#first-view">Home</a></li>
-                    <li><a href="#sinu-verse"> SINUVerse</a></li>
-                    <li><a href="#game-modes"> GameModes</a></li>
-                    <li><a href="#teams">Team </a></li>
-                    {/* <li><a href="#sinu">Whitepaper </a></li> */}
-                </ul>
-            </div>
-               
-          </div>
-
-        </nav>
+        <NavBar />
         <div className="hero-text-box">
             <center>
                 <div className='sinu-title'>
