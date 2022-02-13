@@ -16,12 +16,13 @@ import gala13 from "../images/collage/gala13.png";
 import gala14 from "../images/collage/gala14.png";
 import gala15 from "../images/collage/gala15.png";
 import gala16 from "../images/collage/gala16.png";
+import NavBar from "../components/NavBar";
 
 
 const Gallery = ()  => {
   return(
       <header>
-          <Header/>
+          <NavBar/>
     <div className="galaContainer">
         <div className="galaBox">
             <img src={gala1} alt="gallery"></img>

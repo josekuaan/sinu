@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Landing/>} />
+        <Route exact path='/' element={<Landing/>} />
 
-        <Route path='/gallery' element={<Gallery/>} />
-        <Route path='/road-map' element={<RoadMap/>} />
+        <Route exact path='/gallery' element={<Gallery/>} />
+        <Route exact path='/roadmap' element={<RoadMap/>} />
       </Routes>
   </Router>
   );

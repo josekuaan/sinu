@@ -15,7 +15,6 @@ export default function Hero() {
     <>
       <header>
 
-//         <Header />
         <NavBar />
 
         <div className="hero-text-box">
