@@ -1,11 +1,12 @@
-import React from "react";
-
+import React from "react"
 import sinugold from "../images/sinugold.png";
 import sinuLord from "../images/sinu-lord.png";
 import sinuVerse from "../images/sinu-verse.png";
 import fighter1 from "../images/Fighter 1.png";
 import fighter2 from "../images/Fighter 2.png";
 import gameMode from "../images/game-mode.png";
+import NavBar from './NavBar';
+
 
 import Header from "./Header";
 
@@ -13,7 +14,10 @@ export default function Hero() {
   return (
     <>
       <header>
-        <Header />
+
+//         <Header />
+        <NavBar />
+
         <div className="hero-text-box">
           <center>
             <div className="sinu-title">

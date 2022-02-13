@@ -43,7 +43,7 @@ nav{
 .main-nav {
   width: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #fff;
   position: absolute;
   top: 0;
@@ -131,8 +131,7 @@ nav{
 
 .section-two-container{
   width: 50%;
-  
-  color: #fff;
+  color: #f5f5f5a8;
 }
 .section-two-container p {
   padding-top: 10px;
@@ -296,6 +295,46 @@ footer ul li{
   width: 70%;
 }
 
+ /* ========================== */
+ /* ROAD MAP  */
+/* ==========================  */
+
+#road-map{
+  background: linear-gradient(to bottom, rgb(3, 3, 3,0.5),  rgba(3, 13, 19, 0.73)),
+  url('./images/road-map-bg.png');;
+  opacity: 1;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.road-map-img img{
+  width: 100%;
+}
+.road-map-title{
+  margin: 54px auto;
+  width: 369px;
+}
+.road-map-title img{
+  width: 100%;
+}
+.road-map-content{
+  display: none;
+  text-align: center;
+}
+
+.group-content{
+  /* width: 30%; */
+}
+.group-content img{
+  width: 100%;
+}
+.phase{
+  padding-left: 0;
+  color: #fff;
+}
+
 /***Beginning of media query***/
 
 @media only screen and (max-width:1000px) {
@@ -355,6 +394,15 @@ footer ul li{
  .galaBox {
   width: 42%;
 }
+}
+@media only screen and (max-width:765px) {
+  
+  .road-map-img{
+    display: none;
+  }
+  .road-map-content{
+   display: block;
+  }
 }
 @media only screen and (max-width:600px) {
   .navbar-menu {
