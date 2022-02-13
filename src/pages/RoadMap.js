@@ -8,6 +8,7 @@ import Appointment from '../images/appointment.png'
 import BigAmb from '../images/bigAmb.png'
 import Init from '../images/init.png'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default function RoadMap() {
   return (
@@ -79,6 +80,7 @@ export default function RoadMap() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
         <div >
             <img src={BigAmb} alt='' style={{width:'100%'}} />

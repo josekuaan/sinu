@@ -8,6 +8,6 @@ export default function Landing() {
   return <div>
     <Hero />
     <Teams />
-    <Footer />
+   
   </div>;
 }
