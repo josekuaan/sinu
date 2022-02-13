@@ -6,6 +6,7 @@ import Landing from './pages/Landing';
 
 import Gallery from './pages/Gallery';
 import RoadMap from './pages/RoadMap';
+import Token from './components/Token';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
         <Route exact path='/gallery' element={<Gallery/>} />
         <Route exact path='/roadmap' element={<RoadMap/>} />
+        <Route exact path='/tokenomics' element={<Token/>} />
       </Routes>
   </Router>
   );

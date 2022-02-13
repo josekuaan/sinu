@@ -43,7 +43,7 @@ nav{
 .main-nav {
   width: 85%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
   position: absolute;
   top: 0;
@@ -361,6 +361,50 @@ footer ul li{
   color: #fff;
 }
 
+.token-content{
+  /* padding: 30px; */
+  display: flex;
+  border: 1px solid;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.pie-chart{
+  margin: 0 auto;
+  width: 20%;
+}
+.allocated{
+  background: #03D5F0;
+  flex: 2;
+
+}
+
+.token-title{
+  padding: 20px 20px 10px 20px;
+}
+.bullet-point {
+  margin-bottom: 0px;
+}
+.bullet-point li{
+  /* list-style-type: circle; */
+  margin-bottom: 0px;
+}
+.circulate{
+  background: #01EF9A;
+  flex: 2;
+}
+.last{
+  margin-bottom: 0px;
+}
+.market{
+  flex: 1;
+  background: #D01CEF;
+}
+.fund{
+  flex: 1;
+  background: #F1F1F1;
+}
+
 /***Beginning of media query***/
 
 @media only screen and (max-width:1000px) {
@@ -428,6 +472,12 @@ footer ul li{
   }
   .road-map-content{
    display: block;
+  }
+  .token-content{
+    flex-direction: column;
+  }
+  .pie-chart{
+    width:30%
   }
 }
 @media only screen and (max-width:600px) {

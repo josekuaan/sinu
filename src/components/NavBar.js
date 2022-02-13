@@ -17,6 +17,7 @@ export default function NavBar() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/gallery"> Gallrry</Link></li>
             <li><Link to="/roadmap"> RoadMap</Link></li>
+            <li><Link to="/tokenomics"> Tokenomics</Link></li>
             
             
         </ul>

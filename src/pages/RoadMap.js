@@ -10,6 +10,7 @@ import Init from '../images/init.png'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
+
 export default function RoadMap() {
   return (
     <div id="road-map">
@@ -79,8 +80,9 @@ export default function RoadMap() {
                       <p className="card-text">● Features are added as the need arises...  </p>
                     </div>
                 </div>
+                
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
         <div >
             <img src={BigAmb} alt='' style={{width:'100%'}} />
