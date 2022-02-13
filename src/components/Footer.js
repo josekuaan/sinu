@@ -12,7 +12,7 @@ export default function Footer() {
   return <footer >
 
              <div>
-                 <a href="index.html"><img src={logo} className="logo-black footerlogo" alt="logo"  width={150}/></a>
+                 <a href="/"><img src={logo} className="logo-black footerlogo" alt="logo"  width={150}/></a>
              </div>
              <div className='navbar-menu'>
                 <ul className=" ">

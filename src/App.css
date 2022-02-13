@@ -223,6 +223,12 @@ iframe {
 .sinu{
   background-color: black;
   padding-top:3em;
+  background: transparent url('./images/Hero.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .sinu center{
   
@@ -243,7 +249,7 @@ iframe {
 }
 
 footer{
-  background-color: #0A3240;
+  /* background-color: #0A3240; */
   padding: 2rem 6rem 2rem;
   display:flex;
   justify-content: space-between;
@@ -262,11 +268,32 @@ iframe:focus {
   display: block;
 } */
 footer ul li{
- width: 50px;
+ width: 35px;
  margin-right: 1rem;
 
 }
+.galaContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0px;
+}
+.galaBox {
+  width: 25%;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.galaBox:hover {
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+}
 
+.galaBox img {
+  width: 70%;
+}
 
  /* ========================== */
  /* ROAD MAP  */
@@ -328,6 +355,12 @@ footer ul li{
   .section-two {
     padding-bottom: 40px;
   }
+  .galaBox {
+    width: 30%;
+  }
+  .galaContainer {
+    justify-content: center;
+  }
 }
 @media only screen and (max-width:800px) {
   .navbar-menu {
@@ -358,6 +391,9 @@ footer ul li{
  .section-three-sinuverse-text {
    width: 80%;
  }
+ .galaBox {
+  width: 42%;
+}
 }
 @media only screen and (max-width:765px) {
   
@@ -414,6 +450,12 @@ footer ul li{
 ;
   }
   .section-three-sinuverse-text {
+    width: 100%;
+  }
+  .galaBox {
+    width: 40%;
+  }
+  .galaBox img {
     width: 100%;
   }
 }

@@ -6,6 +6,7 @@ import Growth from '../images/growth.png'
 import Expansion from '../images/expansion.png'
 import Appointment from '../images/appointment.png'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default function RoadMap() {
   return (
@@ -34,6 +35,7 @@ export default function RoadMap() {
                     <img src={Appointment} alt='' />
                 </div>
             </div>
+            <Footer/>
         </div>
     </div>
   )
