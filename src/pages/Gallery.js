@@ -17,12 +17,18 @@ import gala14 from "../images/collage/gala14.png";
 import gala15 from "../images/collage/gala15.png";
 import gala16 from "../images/collage/gala16.png";
 import NavBar from "../components/NavBar";
+import GalleryImg from '../images/Gallery.png'
+
 
 
 const Gallery = ()  => {
   return(
       <header>
+          
           <NavBar/>
+          <div className='road-map-title gallery'>
+                <img src={GalleryImg} alt='' />
+            </div>
     <div className="galaContainer">
         <div className="galaBox">
             <img src={gala1} alt="gallery"></img>

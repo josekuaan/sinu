@@ -40,6 +40,12 @@ nav{
 .navbar-menu img {
   width: 100%;
 }
+.card {
+  padding: 20px;
+}
+.card p {
+  font-size: 14px;
+}
 .main-nav {
   width: 85%;
   display: flex;
@@ -278,7 +284,7 @@ footer ul li{
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
-  padding: 60px 0px;
+  padding: 30px 0px 60px;
 }
 .galaBox {
   width: 25%;
@@ -300,13 +306,25 @@ footer ul li{
 /* ==========================  */
 
 #road-map{
-  background: linear-gradient(to bottom, rgb(3, 3, 3,0.5),  rgba(3, 13, 19, 0.73)),
-  url('./images/road-map-bg.png');;
+  /* background: linear-gradient(to bottom, rgb(3, 3, 3,0.5),  rgba(3, 13, 19, 0.73)),
+  url('./images/road-map-bg.png');; */
+  background: transparent url(http://localhost:3000/static/media/Hero.b6adbfcec124927f2eb3.png) 0% 0% no-repeat padding-box;
   opacity: 1;
   /* height: 100vh; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.token {
+  padding-bottom: 40px;
+
+}
+.token h5 {
+  font-size: 17px;
+}
+.token p {
+  font-size: 14px;
 }
 
 .card{
@@ -329,7 +347,10 @@ footer ul li{
   color: #FE439F;
 }
 
-
+.token-card {
+  padding: 20px;
+  margin-top: 20px;
+}
 
 .card-image{
   margin: 0 auto;
@@ -339,11 +360,20 @@ footer ul li{
   width: 100%;
 }
 .road-map-title{
-  margin: 54px auto;
-  width: 369px;
+  margin: 15px auto 60px;
+  /* width: 369px; */
+  width: 40%; 
+  text-align: center;
 }
+
 .road-map-title img{
   width: 100%;
+}
+.road-map-title.gallery img {
+  width: 50%;
+}
+.road-map-title.token img {
+  width: 61%;
 }
 .road-map-content{
   display: none;
@@ -364,7 +394,7 @@ footer ul li{
 .token-content{
   /* padding: 30px; */
   display: flex;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: 0 auto;
   width: 90%;
 }
@@ -375,15 +405,20 @@ footer ul li{
 }
 .allocated{
   background: #03D5F0;
-  flex: 2;
+  flex: 1;
 
 }
+ul {
+  padding: 0;
+}
+
 
 .token-title{
-  padding: 20px 20px 10px 20px;
+  /* padding: 20px 20px 10px 20px; */
 }
 .bullet-point {
   margin-bottom: 0px;
+  padding-top: 20px;
 }
 .bullet-point li{
   /* list-style-type: circle; */
@@ -391,7 +426,7 @@ footer ul li{
 }
 .circulate{
   background: #01EF9A;
-  flex: 2;
+  flex: 1.5;
 }
 .last{
   margin-bottom: 0px;
@@ -403,6 +438,10 @@ footer ul li{
 .fund{
   flex: 1;
   background: #F1F1F1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /***Beginning of media query***/
@@ -479,6 +518,9 @@ footer ul li{
   .pie-chart{
     width:30%
   }
+  .galaContainer {
+    justify-content: space-between;
+  }
 }
 @media only screen and (max-width:600px) {
   .navbar-menu {
@@ -551,7 +593,7 @@ footer ul li{
     width: 100px;
   }
   .main-nav li a {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
 @media only screen and (max-width:360px) {

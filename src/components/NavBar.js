@@ -15,7 +15,7 @@ export default function NavBar() {
         <img src={navbar} alt='nav'/>
         <ul className="main-nav js--main-nav ">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/gallery"> Gallrry</Link></li>
+            <li><Link to="/gallery"> Gallery</Link></li>
             <li><Link to="/roadmap"> RoadMap</Link></li>
             <li><Link to="/tokenomics"> Tokenomics</Link></li>
             
