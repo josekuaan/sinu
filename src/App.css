@@ -306,9 +306,7 @@ footer ul li{
 /* ==========================  */
 
 #road-map{
-  /* background: linear-gradient(to bottom, rgb(3, 3, 3,0.5),  rgba(3, 13, 19, 0.73)),
-  url('./images/road-map-bg.png');; */
-  background: transparent url(http://localhost:3000/static/media/Hero.b6adbfcec124927f2eb3.png) 0% 0% no-repeat padding-box;
+  background: transparent url('./images/Hero.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   /* height: 100vh; */
   background-repeat: no-repeat;
