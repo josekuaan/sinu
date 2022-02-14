@@ -27,7 +27,7 @@ export default function Hero() {
               </span>
             </div>
             <div>
-              <a href="http://samoinu.com/tokenomics/#$SINU" className=" btn btn-join-metaverse">
+              <a href="/tokenomics/#$SINU" className=" btn btn-join-metaverse">
                 Buy $SINU Now
               </a>
             </div>
