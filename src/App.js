@@ -17,7 +17,6 @@ function App() {
         <Route exact path='/gallery' element={<Gallery/>} />
         <Route exact path='/roadmap' element={<RoadMap/>} />
         <Route exact path='/tokenomics' element={<Token/>} />
-        <Route exact path='/tokenomics/:#$SINU' element={<Token/>} />
       </Routes>
   </Router>
   );
