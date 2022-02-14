@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import sinugold from "../images/sinugold.png";
 import sinuLord from "../images/sinu-lord.png";
 import sinuVerse from "../images/sinu-verse.png";
@@ -8,7 +9,6 @@ import gameMode from "../images/game-mode.png";
 import NavBar from "./NavBar";
 import BouncyDiv from "./StyledDiv";
 import Snowfall from "react-snowfall";
-import Header from "./Header";
 
 export default function Hero() {
   return (
@@ -27,9 +27,9 @@ export default function Hero() {
               </span>
             </div>
             <div>
-              <a href="/tokenomics" className=" btn btn-join-metaverse">
+              <Link to="/tokenomics" className=" btn btn-join-metaverse">
                 Buy $SINU Now
-              </a>
+              </Link>
             </div>
 
             <div className="sinu-image">
