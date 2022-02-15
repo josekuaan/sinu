@@ -86,31 +86,36 @@ export default function Token() {
         Market ID: EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89
             </p> 
         <p>
-        Dexlab Trading Link : <a href="https://trade.dexlab.space/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89">https://trade.dexlab.space/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
+        Dexlab Trading Link : <a href="https://trade.dexlab.space/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89" target="_blank" rel="noreferrer">https://trade.dexlab.space/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
         
             </p>
         <p>
-        Solape DEX Trading Link : <a href="https://solapeswap.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89">https://solapeswap.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
+        Solape DEX Trading Link : <a href="https://solapeswap.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89" target="_blank" rel="noreferrer">https://solapeswap.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
         
             </p> 
         <p>
-        Raydium Swap Link : <a href="https://raydium.io/swap/?from=Ac7GiHwC7vZU2y97GRh9rqCqqnKAAgopYrTAtKccHxUk&to=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB">https://raydium.io/swap/?from=Ac7GiHwC7vZU2y97GRh9rqCqqnKAAgopYrTAtKccHxUk&to=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</a>
+        Raydium Swap Link : <a href="https://raydium.io/swap/?from=Ac7GiHwC7vZU2y97GRh9rqCqqnKAAgopYrTAtKccHxUk&to=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB" target="_blank" rel="noreferrer">https://raydium.io/swap/?from=Ac7GiHwC7vZU2y97GRh9rqCqqnKAAgopYrTAtKccHxUk&to=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</a>
         
       
             </p> 
         <p>
   
-        Sonar.watch DEX Trading Link : <a href="https://dex.sonar.watch/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89">https://dex.sonar.watch/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
+        Sonar.watch DEX Trading Link : <a href="https://dex.sonar.watch/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89" target="_blank" rel="noreferrer">https://dex.sonar.watch/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
+        
+            </p>
+            <p>
+  
+        Bitrue DEX Trading Link : <a href="https://www.bitrue.com/trade/sinu_usdt" target="_blank" rel="noreferrer">https://www.bitrue.com/trade/sinu_usdt</a>
         
             </p>
         <p>
-        Ninja DEX Trading Link : <a href="https://dex.ninjaprotocol.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89">https://dex.ninjaprotocol.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
+        Ninja DEX Trading Link : <a href="https://dex.ninjaprotocol.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89" target="_blank" rel="noreferrer">https://dex.ninjaprotocol.io/#/market/EXF3mbBWcFsS6bD87GDSGgCjoH8Rhxb9AbcEcJgkJw89</a>
         
             </p> <br></br>
         <p>
   
         --> Note: $SINU/USDT is the only supported pair at the moment.
-            </p> <br></br>
+          </p> <br></br>
        
       
       
