@@ -1,0 +1,27 @@
+.faq {
+    min-height: 100vh;
+  }
+.styles_faq-row-wrapper__3vA1D {
+    background-color: transparent;
+}
+.styles_faq-row-wrapper__3vA1D h2 {
+    color: white;
+    
+}
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    padding: 15px 0px;
+    border: none;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY {
+    color: white;
+    background: #ffffff47;
+    padding-left: 10px;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB{
+    color: white;
+    padding: 40px 30px;
+    background: #00000070;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg{
+    fill: white;
+}

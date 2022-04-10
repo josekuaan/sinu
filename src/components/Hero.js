@@ -9,6 +9,8 @@ import NavBar from "./NavBar";
 import BouncyDiv from "./StyledDiv";
 import Snowfall from "react-snowfall";
 import Header from "./Header";
+import RoadMapImage from "../images/Roadmap.png";
+
 
 export default function Hero() {
   return (
@@ -46,33 +48,123 @@ export default function Hero() {
               <h1>Welcome To </h1>
               <img src={sinuVerse} alt="" />
               <p>
-                SINUVerse is a metaverse project inspired by sine principles to
-                bring forth a new world from the old one. (Sine is a
-                mathematical function that brought together; geometry, the
-                science of space and form, & algebra, the science of numbers).
-                The first settlers in the SINUVerse will be SINU armies who must
-                fight for their right to own a clan and survival of their clan.
-                Each clan represents all the unique clan in our NFTs with
-                varying attributes and features. The goal of each clan is to
-                bring forth a new world.
+                The Sinuverse will be raided by a top collection of 5,555 SINU
+                Armies who are on their journey to the new world of Solana
+                Blockchain.
               </p>
             </div>
           </div>
         </section>
       </header>
-      <section className="section-three-content" id="game-modes" style={{position:"relative"}}>
+      <section
+        className="section-three-content"
+        id="game-modes"
+        style={{ position: "relative" }}
+      >
         <Snowfall
-          // Changes the snowflake color
-          color="white"
-          // Applied to the canvas element
           
+          color="white"
+         
+
           style={{
-            position: 'absolute',
-            width: '100vw',
-            // height: '100vh'
+            position: "absolute",
+            width: "100vw",
+            
           }}
-          // Controls the number of snowflakes that are created (default 150)
-          snowflakeCount={200}
+             snowflakeCount={200}
+        />
+        <div className="pvp">
+        
+          <div className=" section section-three">
+         
+            <div className="section-three-img">
+              <img src={fighter2} alt="" style={{ width: "100%" }} />
+            </div>
+
+            <div className="">
+              <center>
+                <img src={RoadMapImage} alt="" width={300} />
+              </center>
+            
+              <div className="container Row roadmap">
+                <div className="road-map-title">
+                  {/* <img src={RoadMapImage} alt="" /> */}
+                </div>
+                <hr></hr>
+                <div className="roadmap-section roadmap-styled">
+                  <h2>Before Launch</h2>
+                  <div>
+                    <p>- Whitelist Event</p>
+                    <p>- Game Mechanics Whitepaper Release</p>
+                    <p>- Game Trailer of First Game on Sinuverse Unveiled</p>
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="roadmap-section">
+                  <div>
+                    <p>
+                      The 5,555 PupSINU 3D NFT genesis collection found their
+                      new home with a new owner on the Solana blockchain.
+                    </p>
+                    
+                  </div>
+                  <h2>Launch Day</h2>
+                  
+
+                </div>
+                <hr></hr>
+                <div className="roadmap-section roadmap-styled">
+                  <h2>After Launch</h2>
+                  <div>
+                    <p>- Listing on Secondary Market</p>
+                    <p>
+                      - More liquidity added to $SINU/USDT Pool on Raydium with
+                      funds raised from NFT Sale
+                    </p>
+                    <p>- $SINU Major Token Burn</p>
+                    <p>- Stake PupSINU 3D NFTs to earn $SINU</p>
+                    <p>- Community Governance DAO Opens</p>
+                    <p>- Purchase Merch with $SINU </p>
+                  </div>
+                </div>
+                <hr></hr>
+                <div className="roadmap-section">
+                  <div>
+                    <p>- $SINU Listed on CEX</p>
+                    <p>
+                      - Sinuverse goes live - First game on Sinuverse is
+                      launched
+                    </p>
+                  </div>
+                  <h2>Q3 2022</h2>
+
+                </div>
+              </div>
+              
+            </div>
+
+            <div className="section-three-img">
+              <img src={fighter1} alt="" style={{ width: "100%" }} />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section
+        className="section-three-content"
+        id="game-modes"
+        style={{ position: "relative" }}
+      >
+        <Snowfall
+          
+          color="white"
+         
+
+          style={{
+            position: "absolute",
+            width: "100vw",
+            
+          }}
+             snowflakeCount={200}
         />
         <div className="pvp">
           <div className=" section section-three">
@@ -84,8 +176,9 @@ export default function Hero() {
               <center>
                 <img src={gameMode} alt="" width={300} />
               </center>
+            
 
-              <p>
+               <p>
                 PvP(Player vs Player) Mode The most advanced mode of our
                 Play-2-Earn game is to allow players compete together in this
                 player vs player mode and the goal is to increase community
@@ -107,7 +200,7 @@ export default function Hero() {
                 >
                   Whitepaper Soon{" "}
                 </a>
-              </p>
+              </p> 
             </div>
 
             <div className="section-three-img">
@@ -115,7 +208,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

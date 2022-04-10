@@ -3,8 +3,13 @@ body {
 }
 a{
   text-decoration: none;
-  
 }
+.Row {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
 ul li{
   list-style: none;
 }
@@ -159,7 +164,7 @@ nav{
 
 .pvp{
   position: relative;
-    top: 240px;
+    /* top: 240px; */
 }
 .section-three-container{
   width: 50%;
@@ -355,7 +360,7 @@ footer ul li{
   width: 100%;
 }
 .road-map-title{
-  margin: 15px auto 60px;
+  margin: 15px auto 20px;
   /* width: 369px; */
   width: 40%; 
   text-align: center;
@@ -462,6 +467,8 @@ ul {
   }
   .section-three {
     align-items: center;
+    flex-direction: column;
+
   }
   .section-three-container {
     position: relative;
@@ -498,9 +505,7 @@ ul {
   .section-two-container {
     width: 80%;
   }
-  .section-three {
-    flex-direction: column;
-  }
+ 
   .sinu-team-img{
     width: 40%;
  }
@@ -608,4 +613,54 @@ ul {
 }
 @media only screen and (max-width:360px) {
 
+}
+
+
+.roadmap {
+  color: white;
+}
+.roadmap h2 {
+  /* white-space: nowrap */
+}
+.roadmap-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.roadmap-section.roadmap-styled {
+  flex-wrap: wrap;
+
+}
+.roadmap-section > div{
+  width: 100%;
+  background-color: #00000052;
+  padding: 10px;
+  
+}
+.roadmap-section.roadmap-styled > div{
+  width: 100%;
+  background-color: #00000052;
+  padding: 10px;
+  
+}
+.roadmap hr {
+  height: 3px;
+  background-color: #FD9101;
+}
+@media only screen and (max-width:768px){
+.roadmap-section > div{
+  /* width: 95%; */
+}
+.roadmap-section h2 {
+  transform: rotate(90deg);
+}
+.roadmap-section.roadmap-styled h2 {
+  transform: rotate(0deg);
+  
+}
+}
+@media only screen and (max-width:425px){
+  .roadmap {
+      width: 100%;
+  }
 }
