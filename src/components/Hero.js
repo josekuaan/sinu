@@ -8,7 +8,6 @@ import gameMode from "../images/game-mode.png";
 import NavBar from "./NavBar";
 import BouncyDiv from "./StyledDiv";
 import Snowfall from "react-snowfall";
-import Header from "./Header";
 import RoadMapImage from "../images/Roadmap.png";
 
 
