@@ -114,7 +114,7 @@ export default function Token() {
             </p> <br></br>
         <p>
   
-        --> Note: $SINU/USDT is the only supported pair at the moment.
+         Note: $SINU/USDT is the only supported pair at the moment.
           </p> <br></br>
        
       
